@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - APIIAtividade01",
+            "request": "launch",
+            "mainClass": "APIIAtividade01",
+            "projectName": "javateste_7b09c86a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "javateste_7b09c86a"
+        }
+    ]
+}
