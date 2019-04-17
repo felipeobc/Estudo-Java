@@ -15,7 +15,7 @@ public class Ex06{
             if(palavra.substring(0).equals("P") ){
                 System.out.print("A sua palavra começa com P!: "+palavra);
                 i++;
-            }else if(palavra.indexOf("F")){
+            }else if(palavra.indexOf("F") != 0){
                 System.out.print("A sua palavra conte com F!: "+palavra);
                 i++;
             }
