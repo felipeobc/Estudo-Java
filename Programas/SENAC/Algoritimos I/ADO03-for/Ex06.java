@@ -15,7 +15,7 @@ public class Ex06{
                 primo = 0;
                 
             }else if(primo == 1){
-              System.out.print(numero);
+              System.out.print(i);
           }
         }
         
