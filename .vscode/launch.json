@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Ex03",
+            "request": "launch",
+            "mainClass": "Ex03"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex01",
+            "request": "launch",
+            "mainClass": "Ex01"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Meu_primeiro_Programa",
             "request": "launch",
             "mainClass": "Meu_primeiro_Programa"
