@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senac.aplicacaoBase.telas.TelaInicialController">
+   <children>
+      <Button layoutX="164.0" layoutY="140.0" mnemonicParsing="false" onAction="#abrirTelaClientes" prefHeight="121.0" prefWidth="121.0" text="Clientes" AnchorPane.leftAnchor="164.0" AnchorPane.topAnchor="140.0" />
+      <Button layoutX="316.0" layoutY="140.0" mnemonicParsing="false" onAction="#abrirTelaSobre" prefHeight="121.0" prefWidth="121.0" text="Sobre" AnchorPane.rightAnchor="163.0" AnchorPane.topAnchor="140.0" />
+   </children>
+</AnchorPane>
