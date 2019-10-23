@@ -30,7 +30,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
  *
  * @author felipe.o.camargo
  */
-public class TelaProdutosController implements Initializable {
+public class TelaProdutosController {
 
     @FXML
     private TextField txtCodigo;
@@ -280,7 +280,6 @@ public class TelaProdutosController implements Initializable {
             }
         }
         catch(Exception e) {
-            e.printStackTrace();
             resultados = null;
         }
         return resultados;
@@ -290,9 +289,6 @@ public class TelaProdutosController implements Initializable {
         MockProduto.excluir(produto.getId());
     }
 
-    @Override
-    public void initialize(URL arg0, ResourceBundle arg1) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   
     
 }

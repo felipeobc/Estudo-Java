@@ -59,7 +59,7 @@ public class MockProduto {
     //ou com o sobrenome, passado como parâmetro
     public static List<Produto> procurar(String valor)
             throws Exception {
-        List<produto> listaResultado = new ArrayList<produto>();
+        List<Produto> listaResultado = new ArrayList<Produto>();
         
         if (valor != null && !listaProduto.isEmpty()) {
             for (Produto produtoLi : listaProduto) {

@@ -1,5 +1,6 @@
 package br.senac.aplicacaoBase.telas;
 
+import java.io.IOException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +11,12 @@ import javafx.stage.Stage;
 public class TelaInicialController {
     private Stage clienteStage;
     private Stage sobreStage;
+    private Stage produtoStage;
     
+    /**
+     *
+     * @throws Exception
+     */
     @FXML
     public void abrirTelaClientes() throws Exception {
         if (clienteStage == null || !clienteStage.isShowing()) {
@@ -30,7 +36,7 @@ public class TelaInicialController {
             clienteStage.show();
         }
         clienteStage.toFront();
-    }
+    }   
 
     @FXML
     private void abrirTelaSobre(ActionEvent event) throws Exception {
@@ -51,27 +57,27 @@ public class TelaInicialController {
             sobreStage.show();
         }
         sobreStage.toFront();
-    }
+    }  
 
     @FXML
     private void abrirTelaProdutos(ActionEvent event) throws Exception {
-        if (sobreStage == null || !sobreStage.isShowing()) {
+        if (produtoStage == null || !produtoStage.isShowing()) {
             Parent telaCadastro = FXMLLoader.load(
                     getClass().getResource(
                             "/br/senac/aplicacaoBase/telas/TelaProdutos.fxml"
                     )
             );
 
-            sobreStage = new Stage();
+            produtoStage = new Stage();
             Scene scene = new Scene(telaCadastro);
 
-            sobreStage.setScene(scene);
-            sobreStage.setTitle("Produtos");
-            sobreStage.setMinHeight(315);
-            sobreStage.setMinWidth(343);
-            sobreStage.show();
+            produtoStage.setScene(scene);
+            produtoStage.setTitle("Produtos");
+            produtoStage.setMinHeight(380);
+            produtoStage.setMinWidth(812);
+            produtoStage.show();
         }
-        sobreStage.toFront();
+        produtoStage.toFront();
     }
     
 }

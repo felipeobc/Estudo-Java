@@ -7,6 +7,6 @@
    <children>
       <Button layoutX="87.0" layoutY="246.0" mnemonicParsing="false" onAction="#abrirTelaClientes" prefHeight="121.0" prefWidth="121.0" text="Clientes" AnchorPane.leftAnchor="87.0" AnchorPane.topAnchor="246.0" />
       <Button layoutX="239.0" layoutY="246.0" mnemonicParsing="false" onAction="#abrirTelaSobre" prefHeight="121.0" prefWidth="121.0" text="Sobre" AnchorPane.rightAnchor="239.66666666666669" AnchorPane.topAnchor="246.0" />
-      <Button layoutX="98.0" layoutY="92.0" mnemonicParsing="false" onAction="#abrirTelaProdutos" prefHeight="121.0" prefWidth="121.0" text="Produtos" />
+      <Button layoutX="87.0" layoutY="108.0" mnemonicParsing="false" onAction="#abrirTelaProdutos" prefHeight="121.0" prefWidth="121.0" text="Produtos" />
    </children>
 </AnchorPane>
