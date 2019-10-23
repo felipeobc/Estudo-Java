@@ -14,6 +14,7 @@ public class Produto {
     
      //Atributos
     private Integer id;
+    private String codigo;
     private String nome;
     private String especie;
     private String valor;
@@ -27,6 +28,13 @@ public class Produto {
         this.id = id;
     }
     
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
     public String getNome() {
         return nome;
     }

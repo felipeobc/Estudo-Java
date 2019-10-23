@@ -52,5 +52,26 @@ public class TelaInicialController {
         }
         sobreStage.toFront();
     }
+
+    @FXML
+    private void abrirTelaProdutos(ActionEvent event) throws Exception {
+        if (sobreStage == null || !sobreStage.isShowing()) {
+            Parent telaCadastro = FXMLLoader.load(
+                    getClass().getResource(
+                            "/br/senac/aplicacaoBase/telas/TelaProdutos.fxml"
+                    )
+            );
+
+            sobreStage = new Stage();
+            Scene scene = new Scene(telaCadastro);
+
+            sobreStage.setScene(scene);
+            sobreStage.setTitle("Produtos");
+            sobreStage.setMinHeight(315);
+            sobreStage.setMinWidth(343);
+            sobreStage.show();
+        }
+        sobreStage.toFront();
+    }
     
 }
