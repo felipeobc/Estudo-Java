@@ -12,8 +12,14 @@ public class ConversaoDeTiposPrimitivios {
 
         System.out.println(b);
 
-        int c = 4;
-        byte d = c;
+        int c = 8;
+        //byte d = c;
+        //System.out.println(d); 
+
+        double e  = 1.0;
+        int f = (int) e;
+        System.out.println(f);
+
          
 
 
